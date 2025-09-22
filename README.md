@@ -4,35 +4,29 @@
 
 ## 🖥️ VLAN and Switching
 
-### Topology
-
-![Lab 4 Topology]("E:\CNMANG\LAB5\topology 1.png")
-
 ### Objective
-Based on the topology and requirements:
-- Create VLANs to segment a network into multiple broadcast domains.
-- Assign switch ports to the correct VLANs and subnets.  
+Based on the topology, create VLANs to segment a network into multiple broadcast domains with correct subnets.
 
-Zone 1 has 4 VLANs:
-§ VLAN 10: 192.168.0.0/24 PC11, PC13, PC15
-§ VLAN 11: 192.168.1.0/24 PC12
-§ VLAN 12: 192.168.2.0/24 PC14
-§ VLAN 13: 192.168.3.0/24 PC15
+#### Zone 1 has 4 VLANs:
 
-Zone 2 has 3 VLANs:
-§ VLAN 20: 172.20.0/16 PC21, PC22, PC23, PC25
-§ VLAN 21: 192.21.0.0/16 PC24
-§ VLAN 22: 192.22.0.0/16 PC26
+- VLAN 10: 192.168.0.0/24 PC11, PC13, PC15
+- VLAN 11: 192.168.1.0/24 PC12
+- VLAN 12: 192.168.2.0/24 PC14
+- VLAN 13: 192.168.3.0/24 PC15
 
-Zone 3 (network: 192.168.8.0/24) has 5 VLANs:
-§ VLAN 31: PC31, PC33, PC35
-§ VLAN 32: PC32
-§ VLAN 33:
-§ VLAN 34:
-§ VLAN 35: PC36
+#### Zone 2 has 3 VLANs:
 
-- Configure trunk links for inter-switch communication.  
+- VLAN 20: 172.20.0/16 PC21, PC22, PC23, PC25
+- VLAN 21: 192.21.0.0/16 PC24
+- VLAN 22: 192.22.0.0/16 PC26
 
+#### Zone 3 (network: 192.168.8.0/24) has 5 VLANs:
+
+- VLAN 31: PC31, PC33, PC35
+- VLAN 32: PC32
+- VLAN 33:
+- VLAN 34:
+- VLAN 35: PC36
 
 ### General Commands
 ```bash
@@ -127,10 +121,11 @@ device in Zone2 to any device in Zone3, while allowing all other protocols.
 ---
 
 ## 📂 Repository Contents
-
-* **LAB.pkt** — Cisco Packet tracer file.
+* **Topology.png** — The network topology of this lab.
+* **LAB.pkt** — Cisco Packet Tracer file well performed all the tasks this lab required.
 * **README.md** — This combined summary with steps and verification.
 
 ---
+
 
 
